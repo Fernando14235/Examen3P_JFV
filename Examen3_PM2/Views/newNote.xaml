@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:convert="clr-namespace:Examen3_PM2.Base64ToImage"
+             xmlns:cx="clr-namespace:Examen3_PM2.ViewModels"
+             x:Class="Examen3_PM2.Views.newNote"
+             Title="newNote">
+
+    <ContentPage.Resources>
+        <convert:Base64Image x:Key="BaseArray" />
+    </ContentPage.Resources>
+
+    <ContentPage.BindingContext>
+        <cx:MemoryNote />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <Grid Margin="20"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Crear Nota" FontSize="20" HorizontalOptions="Center" Margin="60,10,-80,30"/>
+
+            <Label Grid.Row="1" Grid.Column="0" Text="Fecha" FontSize="18" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"/>
+            <DatePicker Grid.Row="1" Grid.Column="1" Date="{Binding Fecha}" FontSize="14" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"/>
+
+            <Label Grid.Row="2" Grid.Column="0" Text="Descripcion" FontSize="18" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"/>
+            <Entry Grid.Row="2" Grid.Column="1" Text="{Binding Descripcion}" FontSize="16" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"/>
+
+            <Label Grid.Row="3" Grid.Column="0" Text="Grabar Audio" FontSize="18" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" TranslationY="-10"/>
+
+            <Button Grid.Row="4" Grid.Column="1"  Command="{Binding AudioCommand}" BackgroundColor="#ca9c12"  FontSize="13" VerticalOptions="CenterAndExpand"
+            HorizontalOptions="FillAndExpand" TranslationY="-80" x:Name="GbBoton" CornerRadius="25" MaximumWidthRequest="140" Text="Grabar Audio"/>
+
+            <Image x:Name="imgSitio" Grid.Row="3" Grid.Column="0" Margin="0,0,0,10" Aspect="AspectFill"  HeightRequest="100" HorizontalOptions="FillAndExpand" 
+           Source="{Binding Foto, Converter={StaticResource BaseArray}}" VerticalOptions="CenterAndExpand" WidthRequest="100" TranslationY="100" TranslationX="80"/>
+
+            <Button x:Name="btnTomarFoto" Grid.Row="3" Grid.Column="0"  Command="{Binding FotoCommand}" CommandParameter="{Binding .}" CornerRadius="25" FontSize="14" HeightRequest="45" WidthRequest="120" 
+            HorizontalOptions="Center" Text="Foto" BackgroundColor="#12c5ca" TranslationY="190" TranslationX="75"/>
+
+            <Button Grid.Row="4" Grid.Column="0" 
+            Text="Guardar Nota" Command="{Binding CreateCommand}" BackgroundColor="#2aca12" TextColor="Black" FontSize="14" VerticalOptions="CenterAndExpand"
+            HorizontalOptions="FillAndExpand" TranslationY="165" TranslationX="75"  CornerRadius="20" WidthRequest="150"/>
+
+            <Button 
+                Grid.Row="5" 
+                Grid.Column="1" 
+                Margin="-85,250,95,-30" 
+                BackgroundColor="#babe25" 
+                Command="{Binding UpdateCommand}" 
+                FontSize="12" 
+                HorizontalOptions="FillAndExpand"
+                IsVisible="{Binding VisibilityUpdate}" 
+                Text="Actualizar Nota" 
+                TextColor="Black" 
+                VerticalOptions="CenterAndExpand" 
+                WidthRequest="100"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

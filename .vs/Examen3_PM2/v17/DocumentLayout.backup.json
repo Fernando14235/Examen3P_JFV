@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|c:\\users\\nandi\\source\\repos\\examen3_pm2\\examen3_pm2\\viewmodels\\memorynote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|solutionrelative:examen3_pm2\\viewmodels\\memorynote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|c:\\users\\nandi\\source\\repos\\examen3_pm2\\examen3_pm2\\views\\newnote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|solutionrelative:examen3_pm2\\views\\newnote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|c:\\users\\nandi\\source\\repos\\examen3_pm2\\examen3_pm2\\views\\viewnote.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|solutionrelative:examen3_pm2\\views\\viewnote.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|c:\\users\\nandi\\source\\repos\\examen3_pm2\\examen3_pm2\\views\\newnote.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|solutionrelative:examen3_pm2\\views\\newnote.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|c:\\users\\nandi\\source\\repos\\examen3_pm2\\examen3_pm2\\views\\viewnote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|solutionrelative:examen3_pm2\\views\\viewnote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|c:\\users\\nandi\\source\\repos\\examen3_pm2\\examen3_pm2\\controller\\firebasecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|solutionrelative:examen3_pm2\\controller\\firebasecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|c:\\users\\nandi\\source\\repos\\examen3_pm2\\examen3_pm2\\viewmodels\\viewnotesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474C9937-4E04-4831-9AA9-5DB117C2BFE9}|Examen3_PM2\\Examen3_PM2.csproj|solutionrelative:examen3_pm2\\viewmodels\\viewnotesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "viewNote.xaml",
+              "DocumentMoniker": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\Views\\viewNote.xaml",
+              "RelativeDocumentMoniker": "Examen3_PM2\\Views\\viewNote.xaml",
+              "ToolTip": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\Views\\viewNote.xaml",
+              "RelativeToolTip": "Examen3_PM2\\Views\\viewNote.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-15T22:27:31.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FirebaseControllers.cs",
+              "DocumentMoniker": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\Controller\\FirebaseControllers.cs",
+              "RelativeDocumentMoniker": "Examen3_PM2\\Controller\\FirebaseControllers.cs",
+              "ToolTip": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\Controller\\FirebaseControllers.cs",
+              "RelativeToolTip": "Examen3_PM2\\Controller\\FirebaseControllers.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAFoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T22:13:22.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemoryNote.cs",
+              "DocumentMoniker": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\ViewModels\\MemoryNote.cs",
+              "RelativeDocumentMoniker": "Examen3_PM2\\ViewModels\\MemoryNote.cs",
+              "ToolTip": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\ViewModels\\MemoryNote.cs",
+              "RelativeToolTip": "Examen3_PM2\\ViewModels\\MemoryNote.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAAKwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T22:11:58.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewNotesModel.cs",
+              "DocumentMoniker": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\ViewModels\\ViewNotesModel.cs",
+              "RelativeDocumentMoniker": "Examen3_PM2\\ViewModels\\ViewNotesModel.cs",
+              "ToolTip": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\ViewModels\\ViewNotesModel.cs",
+              "RelativeToolTip": "Examen3_PM2\\ViewModels\\ViewNotesModel.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAswK4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T22:05:42.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "newNote.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\Views\\newNote.xaml.cs",
+              "RelativeDocumentMoniker": "Examen3_PM2\\Views\\newNote.xaml.cs",
+              "ToolTip": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\Views\\newNote.xaml.cs",
+              "RelativeToolTip": "Examen3_PM2\\Views\\newNote.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T22:05:00.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "viewNote.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\Views\\viewNote.xaml.cs",
+              "RelativeDocumentMoniker": "Examen3_PM2\\Views\\viewNote.xaml.cs",
+              "ToolTip": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\Views\\viewNote.xaml.cs",
+              "RelativeToolTip": "Examen3_PM2\\Views\\viewNote.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T22:02:57.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "newNote.xaml",
+              "DocumentMoniker": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\Views\\newNote.xaml",
+              "RelativeDocumentMoniker": "Examen3_PM2\\Views\\newNote.xaml",
+              "ToolTip": "C:\\Users\\nandi\\source\\repos\\Examen3_PM2\\Examen3_PM2\\Views\\newNote.xaml",
+              "RelativeToolTip": "Examen3_PM2\\Views\\newNote.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-15T21:40:14.053Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
